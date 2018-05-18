@@ -37,7 +37,6 @@ end
 
 # Define your play method below
 def play(board)
-  turn(board)
-  until index.between?(0-8) == "X" || "O"
-  end
+  9.times do
+    turn(board)
 end
