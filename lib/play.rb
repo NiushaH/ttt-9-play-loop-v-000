@@ -37,6 +37,6 @@ end
 
 # Define your play method below
 def play(board)
-  until turn(board) = 9
+  until index 0-8 = "X" || "O"
   end
 end
